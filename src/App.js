@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './components/styles/App.scss';
+///Components
+import Header from './components/Header';
+import Home from './components/Home';
+import Menu from './components/Menu';
+import About from './components/About';
+import Footer from './components/Footer';
+//imgs
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+	state = { currentWidow: 'Home' };
+
+	changeWindow = (current) => {
+		this.setState({ currentWidow: current });
+	};
+	render() {
+		return (
+			<div className="site">
+				<div className="ui container site-body">
+					<Header onChange={this.changeWindow} />
+					{this.state.currentWidow === 'Home' ? <Home /> : ''}
+					{this.state.currentWidow === 'About' ? <About /> : ''}
+					{this.state.currentWidow === 'Menu' ? <Menu /> : ''}
+				</div>
+				<Footer />
+			</div>
+		);
+	}
 }
-
-export default App;

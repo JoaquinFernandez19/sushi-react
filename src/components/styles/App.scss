@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+.ui.container.site-body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.ui.container.site-body {
+	margin-top: 1vh;
+	flex: 1;
+}
