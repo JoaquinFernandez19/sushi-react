@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sushi-react/static/css/main.33b7dc5f.chunk.css",
-    "main.js": "/sushi-react/static/js/main.9e131c71.chunk.js",
-    "main.js.map": "/sushi-react/static/js/main.9e131c71.chunk.js.map",
-    "runtime-main.js": "/sushi-react/static/js/runtime-main.e1b1b333.js",
-    "runtime-main.js.map": "/sushi-react/static/js/runtime-main.e1b1b333.js.map",
-    "static/js/2.13d404f2.chunk.js": "/sushi-react/static/js/2.13d404f2.chunk.js",
-    "static/js/2.13d404f2.chunk.js.map": "/sushi-react/static/js/2.13d404f2.chunk.js.map",
-    "index.html": "/sushi-react/index.html",
-    "precache-manifest.5df54f6acf39bd0b6408af7b682b6fa2.js": "/sushi-react/precache-manifest.5df54f6acf39bd0b6408af7b682b6fa2.js",
-    "service-worker.js": "/sushi-react/service-worker.js",
-    "static/css/main.33b7dc5f.chunk.css.map": "/sushi-react/static/css/main.33b7dc5f.chunk.css.map",
-    "static/js/2.13d404f2.chunk.js.LICENSE.txt": "/sushi-react/static/js/2.13d404f2.chunk.js.LICENSE.txt",
-    "static/media/line.png": "/sushi-react/static/media/line.201a2d8b.png",
-    "static/media/sushi.png": "/sushi-react/static/media/sushi.24350322.png"
+    "main.css": "/sushi-react/public/static/css/main.33b7dc5f.chunk.css",
+    "main.js": "/sushi-react/public/static/js/main.9e131c71.chunk.js",
+    "main.js.map": "/sushi-react/public/static/js/main.9e131c71.chunk.js.map",
+    "runtime-main.js": "/sushi-react/public/static/js/runtime-main.7f3dfc7b.js",
+    "runtime-main.js.map": "/sushi-react/public/static/js/runtime-main.7f3dfc7b.js.map",
+    "static/js/2.13d404f2.chunk.js": "/sushi-react/public/static/js/2.13d404f2.chunk.js",
+    "static/js/2.13d404f2.chunk.js.map": "/sushi-react/public/static/js/2.13d404f2.chunk.js.map",
+    "index.html": "/sushi-react/public/index.html",
+    "precache-manifest.41ee3d72b8830f3b3e725aab207b7c17.js": "/sushi-react/public/precache-manifest.41ee3d72b8830f3b3e725aab207b7c17.js",
+    "service-worker.js": "/sushi-react/public/service-worker.js",
+    "static/css/main.33b7dc5f.chunk.css.map": "/sushi-react/public/static/css/main.33b7dc5f.chunk.css.map",
+    "static/js/2.13d404f2.chunk.js.LICENSE.txt": "/sushi-react/public/static/js/2.13d404f2.chunk.js.LICENSE.txt",
+    "static/media/line.png": "/sushi-react/public/static/media/line.201a2d8b.png",
+    "static/media/sushi.png": "/sushi-react/public/static/media/sushi.24350322.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1b1b333.js",
+    "static/js/runtime-main.7f3dfc7b.js",
     "static/js/2.13d404f2.chunk.js",
     "static/css/main.33b7dc5f.chunk.css",
     "static/js/main.9e131c71.chunk.js"
