@@ -1,15 +1,16 @@
 import React from 'react';
+import './styles/Menu.scss';
 import Orders from './Orders';
 import MenuItem from './MenuItem';
-import './styles/Menu.scss';
+
 /////
 
 /////
 export class Menu extends React.Component {
 	render() {
 		return (
-			<div className="menu-container ">
-				<div className="menu-list animated bounceInLeft ">
+			<div className="menu-container animated fadeIn ">
+				<div className="menu-list ">
 					<h1>Combos</h1>
 					<MenuItem
 						name="Combo Karate"

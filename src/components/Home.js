@@ -22,7 +22,9 @@ export class Home extends React.Component {
 						alt="black brush dash"
 					/>
 				</div>
-				<h3 className="ui header center aligned uruguay animated fadeIn delay-1s">
+				<h3
+					className="ui header center aligned uruguay animated fadeIn delay-1s"
+					id="URUGUAY">
 					But made in Uruguay
 				</h3>
 			</div>

@@ -12,7 +12,7 @@ export default class Header extends React.Component {
 		let item = 'item';
 		let activeItem = 'item active';
 		return (
-			<div className="ui container">
+			<div className="ui Header container">
 				<h2
 					className="ui center aligned icon header color"
 					style={{

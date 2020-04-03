@@ -46,12 +46,6 @@
 	font-style: italic;
 }
 
-@media (max-width: 409px) {
-	.ui.header.custom-header {
-		font-size: 4rem;
-	}
-}
-
 @media (max-width: 735px) {
 	.home {
 		img {
@@ -61,5 +55,15 @@
 	.ui.inverted.segment.home-segment2 {
 		background: rgba(0, 0, 0, 0.911);
 		margin-top: -2vh;
+	}
+}
+
+@media (max-width: 408px) {
+	.ui.header.custom-header {
+		font-size: 4rem;
+	}
+	#URUGUAY {
+		margin-bottom: 4vh;
+		margin-top: 2vh;
 	}
 }
