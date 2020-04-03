@@ -9,8 +9,8 @@ export class About extends React.Component {
 				<h1 className="ui header center aligned massive inverted headerStyle">
 					About Us
 				</h1>
-				<div className="ui segment">
-					<p>
+				<div className="ui segment ">
+					<p className="about-p">
 						Sushi Leaf es un restaurante ubicado en Montevideo, Uruguay, fundado
 						en el año 2020, por Joaquin Fernandez, uno de los sushiMakers más
 						reconocidos de la región. Luego de estudiar en la Sushi Academy de
@@ -29,7 +29,7 @@ export class About extends React.Component {
 				<img src={sushi} alt="sushi table" className="ui image" />
 
 				<div className="ui segment">
-					<p>
+					<p className="about-p">
 						Hoy en día Sushi Leaf cuenta con Joaquin, junto a otros habilidosos
 						chefs como Pedro, Roberto y Milena, 2 mozos siendo estos Judith y
 						Marcos y por último pero no menos importante nuestro delivery

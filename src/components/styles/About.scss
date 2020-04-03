@@ -5,6 +5,9 @@
 .ui.segment {
 	background: rgba(246, 246, 246, 0.363);
 }
+.about-p {
+	font-size: 1.5rem;
+}
 .ui.inverted.last {
 	margin-bottom: 6vh;
 }
@@ -24,6 +27,7 @@ img {
 	align-self: center;
 	background: white;
 	border: 2px solid rgba(0, 0, 0, 0.356);
+
 	.map.icon.big.icon-style {
 		margin: 0;
 	}
