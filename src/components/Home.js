@@ -16,9 +16,13 @@ export class Home extends React.Component {
 						style={{ color: '#ee9ca7' }}>
 						As if you were eating in <span className="japan"> Japan</span>
 					</h1>
-					<img src={line} className="animated fadeInRight" />
+					<img
+						src={line}
+						className="animated fadeInRight"
+						alt="black brush dash"
+					/>
 				</div>
-				<h3 className="ui header center aligned uruguay animated fadeIn delay-2s">
+				<h3 className="ui header center aligned uruguay animated fadeIn delay-1s">
 					But made in Uruguay
 				</h3>
 			</div>
