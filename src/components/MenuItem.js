@@ -1,9 +1,24 @@
 import React from 'react';
 
 export class MenuItem extends React.Component {
-	addOrder() {
-		console.log('added new item');
+	constructor(props) {
+		super(props);
+		this.state = {
+			name: this.props.name,
+			price: this.props.price,
+			quantity: null,
+		};
 	}
+
+	addOrder = () => {
+		let order = {
+			name: this.state.name,
+			price: this.state.price,
+		};
+
+		this.props.onAdd(order);
+	};
+
 	render() {
 		return (
 			<div className="menu-item">
