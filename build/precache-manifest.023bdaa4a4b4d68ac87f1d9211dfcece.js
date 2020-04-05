@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2891a88e4e8e41b98f05cd101a554d6",
+    "revision": "4fe715e0ffb3cbcdbadfd94630ac3f06",
     "url": "/sushi-react/index.html"
   },
   {
-    "revision": "df6035b3d39826d22e0c",
-    "url": "/sushi-react/static/css/main.0c6375f0.chunk.css"
+    "revision": "2c189d18942ef7bd80bb",
+    "url": "/sushi-react/static/css/main.340d8d31.chunk.css"
   },
   {
     "revision": "09a6c9f827135465de01",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sushi-react/static/js/2.13d404f2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df6035b3d39826d22e0c",
-    "url": "/sushi-react/static/js/main.a3837b2c.chunk.js"
+    "revision": "2c189d18942ef7bd80bb",
+    "url": "/sushi-react/static/js/main.cf6380e7.chunk.js"
   },
   {
     "revision": "72f1e767ee679f868fb9",

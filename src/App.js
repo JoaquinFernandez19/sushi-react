@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 //imgs
 
 export default class App extends React.Component {
-	state = { currentWidow: 'Menu' };
+	state = { currentWidow: 'Home' };
 
 	changeWindow = (current) => {
 		this.setState({ currentWidow: current });
