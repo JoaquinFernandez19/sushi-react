@@ -7,7 +7,7 @@ export class About extends React.Component {
 		return (
 			<div className="ui text container animated fadeIn">
 				<h1 className="ui header center aligned massive inverted headerStyle">
-					About Us
+					Sobre Nosotros
 				</h1>
 				<div className="ui segment ">
 					<p className="about-p">
