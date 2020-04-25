@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sushi-react/static/css/main.4c214e8f.chunk.css",
-    "main.js": "/sushi-react/static/js/main.dc31eb1e.chunk.js",
-    "main.js.map": "/sushi-react/static/js/main.dc31eb1e.chunk.js.map",
+    "main.js": "/sushi-react/static/js/main.fa2d7d0f.chunk.js",
+    "main.js.map": "/sushi-react/static/js/main.fa2d7d0f.chunk.js.map",
     "runtime-main.js": "/sushi-react/static/js/runtime-main.e1b1b333.js",
     "runtime-main.js.map": "/sushi-react/static/js/runtime-main.e1b1b333.js.map",
     "static/js/2.13d404f2.chunk.js": "/sushi-react/static/js/2.13d404f2.chunk.js",
     "static/js/2.13d404f2.chunk.js.map": "/sushi-react/static/js/2.13d404f2.chunk.js.map",
     "index.html": "/sushi-react/index.html",
-    "precache-manifest.693a29347f0ba36290c35c87fe58082d.js": "/sushi-react/precache-manifest.693a29347f0ba36290c35c87fe58082d.js",
+    "precache-manifest.9d2a03dfc6a3a9fcad354aa45b072759.js": "/sushi-react/precache-manifest.9d2a03dfc6a3a9fcad354aa45b072759.js",
     "service-worker.js": "/sushi-react/service-worker.js",
     "static/css/main.4c214e8f.chunk.css.map": "/sushi-react/static/css/main.4c214e8f.chunk.css.map",
     "static/js/2.13d404f2.chunk.js.LICENSE.txt": "/sushi-react/static/js/2.13d404f2.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.e1b1b333.js",
     "static/js/2.13d404f2.chunk.js",
     "static/css/main.4c214e8f.chunk.css",
-    "static/js/main.dc31eb1e.chunk.js"
+    "static/js/main.fa2d7d0f.chunk.js"
   ]
 }
