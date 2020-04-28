@@ -2,76 +2,61 @@ import React from 'react';
 import './styles/Menu.scss';
 import Orders from './Orders';
 import MenuItem from './MenuItem';
-
+import menu from './data/menu.json';
 /////
 
 /////
-export class Menu extends React.Component {
-	constructor(props) {
-		super(props);
-	}
+const Menu = () => {
+	const menuItemsCombo = menu.map((item, index) => {
+		if (index === 0 || index === 1 || index === 2) {
+			return (
+				<MenuItem
+					name={item.name}
+					price={item.price}
+					size={item.size}
+					description={item.description}
+				/>
+			);
+		}
+	});
+	const menuItemsRolls = menu.map((item, index) => {
+		if (index === 3 || index === 4 || index === 5) {
+			return (
+				<MenuItem
+					name={item.name}
+					price={item.price}
+					size={item.size}
+					description={item.description}
+				/>
+			);
+		}
+	});
+	const menuItemsNigiri = menu.map((item, index) => {
+		if (index === 6 || index === 7) {
+			return (
+				<MenuItem
+					name={item.name}
+					price={item.price}
+					size={item.size}
+					description={item.description}
+				/>
+			);
+		}
+	});
 
-	render() {
-		return (
-			<div className="menu-container animated fadeIn ">
-				<div className="menu-list ">
-					<h1>Combos</h1>
-					<MenuItem
-						name="Combo Karate"
-						price={360}
-						size={16}
-						description="Seleccionado de las mejores piezas."
-					/>
-					<MenuItem
-						name="Combo Jiroku"
-						price={560}
-						size={36}
-						description="Seleccionado de las mejores piezas."
-					/>
-					<MenuItem
-						name="Combo Geysha"
-						price={860}
-						size={50}
-						description="Seleccionado de las mejores piezas."
-					/>
-
-					<h1>Rolls</h1>
-					<MenuItem
-						name="Philadelphia roll"
-						price={150}
-						size={9}
-						description="Pescado, arroz y plantita."
-					/>
-					<MenuItem
-						name="California roll"
-						price={150}
-						size={9}
-						description="Pescado, arroz y plantita."
-					/>
-					<MenuItem
-						name="Ebi roll"
-						price={150}
-						size={9}
-						description="Pescado, arroz y plantita."
-					/>
-					<h1>Nigiris</h1>
-					<MenuItem
-						name="Nigiri de salmón"
-						price={250}
-						size={10}
-						description="Pescado y arroz."
-					/>
-					<MenuItem
-						name="Nigiri de atún"
-						price={250}
-						size={10}
-						description="Pescado y arroz."
-					/>
-				</div>
-				<Orders />
+	return (
+		<div className="menu-container animated fadeIn ">
+			<div className="menu-list ">
+				<h1>Combos</h1>
+				{menuItemsCombo}
+				<h1>Rolls</h1>
+				{menuItemsRolls}
+				<h1>Nigiris</h1>
+				{menuItemsNigiri}
 			</div>
-		);
-	}
-}
+			<Orders />
+		</div>
+	);
+};
 
 export default Menu;

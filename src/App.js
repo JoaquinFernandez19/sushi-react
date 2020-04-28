@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './components/styles/App.scss';
 ///Components
 import Header from './components/Header';
@@ -8,23 +8,24 @@ import About from './components/About';
 import Footer from './components/Footer';
 //imgs
 
-export default class App extends React.Component {
-	state = { currentWidow: 'Home' };
+const App = () => {
+	const [currentWidow, setWindow] = useState('Inicio');
 
-	changeWindow = (current) => {
-		this.setState({ currentWidow: current });
+	const changeWindow = (current) => {
+		setWindow(current);
 	};
-	render() {
-		return (
-			<div className="site">
-				<div className="ui container site-body">
-					<Header onChange={this.changeWindow} />
-					{this.state.currentWidow === 'Home' ? <Home /> : ''}
-					{this.state.currentWidow === 'About' ? <About /> : ''}
-					{this.state.currentWidow === 'Menu' ? <Menu /> : ''}
-				</div>
-				<Footer />
+
+	return (
+		<div className="site">
+			<div className="ui container site-body">
+				<Header onChange={changeWindow} />
+				{currentWidow === 'Inicio' ? <Home /> : ''}
+				{currentWidow === 'Historia' ? <About /> : ''}
+				{currentWidow === 'Menu' ? <Menu /> : ''}
 			</div>
-		);
-	}
-}
+			<Footer />
+		</div>
+	);
+};
+
+export default App;

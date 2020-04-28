@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Combo Karate",
+		"price": "360",
+		"size": "16",
+		"description": "Seleccionado de las mejores piezas."
+	},
+	{
+		"name": "Combo Jiroku",
+		"price": "560",
+		"size": "36",
+		"description": "Seleccionado de las mejores piezas."
+	},
+	{
+		"name": "Combo Geysha",
+		"price": "860",
+		"size": "50",
+		"description": "Seleccionado de las mejores piezas."
+	},
+	{
+		"name": "Philadelphia roll",
+		"price": "150",
+		"size": "9",
+		"description": "Pescado, arroz y plantita."
+	},
+	{
+		"name": "California roll",
+		"price": "150",
+		"size": "9",
+		"description": "Pescado, arroz y plantita."
+	},
+	{
+		"name": "Ebi roll",
+		"price": "150",
+		"size": "9",
+		"description": "Pescado, arroz y plantita."
+	},
+	{
+		"name": "Nigiri de salmón",
+		"price": "250",
+		"size": "10",
+		"description": "Pescado y arroz."
+	},
+	{
+		"name": "Nigiri de atún",
+		"price": "250",
+		"size": "10",
+		"description": "Pescado y arroz."
+	}
+]
