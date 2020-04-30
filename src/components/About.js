@@ -10,12 +10,13 @@ const About = () => {
 			</h1>
 			<div className="ui segment ">
 				<p className="about-p">
-					Sushi Leaf es un restaurante ubicado en Montevideo, Uruguay, fundado
-					en el año 2020, por Joaquin Fernandez, uno de los sushiMakers más
-					reconocidos de la región. Luego de estudiar en la Sushi Academy de
-					Japón, volvió a su país de nacimiento para empezar a trabajar en el
-					BasicSenshin, un restaurante conocido de la zona, donde fue
-					rapidamente reconocido por su estilo y su gran cuidado del detalle.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci
+					augue, bibendum et metus a, posuere elementum lectus. Aliquam erat
+					volutpat. Integer semper quis lacus a hendrerit. Fusce vel pharetra
+					dui. Donec a sagittis nibh. Suspendisse potenti. Pellentesque volutpat
+					ipsum ac sem volutpat ultricies. Quisque rhoncus dapibus quam, eu
+					malesuada magna porta a. Donec eu ligula fermentum, lobortis lorem at,
+					interdum quam. Nam non lacinia ex.
 				</p>
 			</div>
 			<div className="ui inverted center aligned segment">
@@ -29,10 +30,10 @@ const About = () => {
 
 			<div className="ui segment">
 				<p className="about-p">
-					Hoy en día Sushi Leaf cuenta con Joaquin, junto a otros habilidosos
-					chefs como Pedro, Roberto y Milena, 2 mozos siendo estos Judith y
-					Marcos y por último pero no menos importante nuestro delivery
-					Patricio.
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci
+					augue, bibendum et metus a, posuere elementum lectus. Aliquam erat
+					volutpat. Integer semper quis lacus a hendrerit. Fusce vel pharetra
+					dui. Donec a sagittis nibh.
 				</p>
 			</div>
 			<div className="ui inverted center aligned segment last">
